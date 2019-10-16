@@ -61,21 +61,21 @@
     }
   ],
   "tokens": [
-    {"addr":"0x0000000000000000000000000000000000000000","name":"ETH","decimals":18},
-    {"addr":"0xd6a55c63865affd67e2fb9f284f87b7a9e5ff3bd","name":"ESH","decimals":18},
-    {"addr":"0x77678cfd0f2b55152adc6599db9f988ab28d72f2","name":"SDEX","decimals":18},
-    {"addr":"0xe7E4279b80D319EDe2889855135A22021baf0907","name":"ZEUS","decimals":18},
-    {"addr":"0x42382f39e7c9f1add5fa5f0c6e24aa62f50be3b3","name":"ZOM","decimals":18},
-    {"addr":"0x515669d308f887Fd83a471C7764F5d084886D34D","name":"MUXE","decimals":18},
-    {"addr":"0x1E26b3D07E57F453caE30F7DDd2f945f5bF3EF33","name":"XCLR","decimals":8},
-    {"addr":"0x4D13d624a87baa278733c068A174412AfA9ca6C8","name":"XBASE","decimals":18},
-    {"addr":"0x29fb4CEe43155bAAB885897f0e96B1F0572a1E86","name":"FBB","decimals":3},
-    {"addr":"0x349c9A0AFbe8C8e08a6bD8A2E925f9EC5aE7d2C9","name":"TFF","decimals":3},
-    {"addr":"0x705ee96c1c160842c92c1aecfcffccc9c412e3d9","name":"POLL","decimals":18},
-    {"addr":"0xb8c77482e45f1f44de1745f52c74426c631bdd52","name":"BNB","decimals":18},
-    {"addr":"0x7c70c1093653ca3aa47ac5d8f934125a0aaa1645","name":"SHNZ2","decimals":8},
-    {"addr":"0xac9ce326e95f51b5005e9fe1dd8085a01f18450c","name":"VSF","decimals":18},
-    {"addr":"0x8cb1d155a5a1d5d667611b7710920fD9D1CD727F","name":"AIRx","decimals":8},
+{"addr":"0x0000000000000000000000000000000000000000","name":"ETH","decimals":18},
+{"addr":"0xd6a55c63865affd67e2fb9f284f87b7a9e5ff3bd","name":"ESH","decimals":18},
+{"addr":"0x77678cfd0f2b55152adc6599db9f988ab28d72f2","name":"SDEX","decimals":18},
+{"addr":"0xe7E4279b80D319EDe2889855135A22021baf0907","name":"ZEUS","decimals":18},
+{"addr":"0x42382f39e7c9f1add5fa5f0c6e24aa62f50be3b3","name":"ZOM","decimals":18},
+{"addr":"0x515669d308f887Fd83a471C7764F5d084886D34D","name":"MUXE","decimals":18},
+{"addr":"0x1E26b3D07E57F453caE30F7DDd2f945f5bF3EF33","name":"XCLR","decimals":8},
+{"addr":"0x4D13d624a87baa278733c068A174412AfA9ca6C8","name":"XBASE","decimals":18},
+{"addr":"0x29fb4CEe43155bAAB885897f0e96B1F0572a1E86","name":"FBB","decimals":3},
+{"addr":"0x349c9A0AFbe8C8e08a6bD8A2E925f9EC5aE7d2C9","name":"TFF","decimals":3},
+{"addr":"0x705ee96c1c160842c92c1aecfcffccc9c412e3d9","name":"POLL","decimals":18},
+{"addr":"0xb8c77482e45f1f44de1745f52c74426c631bdd52","name":"BNB","decimals":18},
+{"addr":"0x7c70c1093653ca3aa47ac5d8f934125a0aaa1645","name":"SHNZ2","decimals":8},
+{"addr":"0xac9ce326e95f51b5005e9fe1dd8085a01f18450c","name":"VSF","decimals":18},
+{"addr":"0x8cb1d155a5a1d5d667611b7710920fD9D1CD727F","name":"AIRx","decimals":8},
 {"addr":"0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2","name":"MKR","decimals":18},
 {"addr":"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48","name":"USDC","decimals":6},
 {"addr":"0xd26114cd6ee289accf82350c8d8487fedb8a0c07","name":"OMG","decimals":18},
@@ -85,11 +85,7 @@
 {"addr":"0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27","name":"ZIL","decimals":12},
 {"addr":"0xb5a5f22694352c15b00323844ad545abb2b11028","name":"ICX","decimals":18},
 {"addr":"0x9ab165d795019b6d8b3e971dda91071421305e5a","name":"AOA","decimals":18},
-{
-  "addr": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-  "name": "WBTC",
-  "decimals": 8
-},
+{"addr":"0x2260fac5e5542a773aa44fbcfedf7c193bc2c599","name": "WBTC","decimals":8},
 {"addr":"0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d","name":"AE","decimals":18},
 {"addr":"0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3","name":"NPXS","decimals":18},
 {"addr":"0x056fd409e1d7a124bd7017459dfea2f387b6d5cd","name":"GUSD","decimals":2},
@@ -122,7 +118,6 @@
 {"addr":"0x763Fa6806e1acf68130D2D0f0df754C93cC546B2","name":"LIT","decimals":18},
 {"addr":"0x066719a77148f332b55870edb8058b71888b10fd","name":"BHZ","decimals":2},
 {"addr":"0x71D6d43512e574e9756c2f030B1376Eb5D91EbC9","name":"NHCT","decimals":18},
-
 {"addr":"0xe0b7927c4af23765cb51314a0e0521a9645f0e2a","name":"DGD","decimals":9},
 {"addr":"0xef68e7c694f40c8202821edf525de3782458639f","name":"LRC","decimals":18},
 {"addr":"0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0","name":"LOOM","decimals":18},
@@ -419,11 +414,11 @@
 {"addr": "0x0000000000085d4780b73119b644ae5ecd22b376","name":"TUSD","decimals": 18},
 {"addr": "0x8e870d67f660d95d5be530380d0ec0bd388289e1","name":"PAX","decimals": 18},
 {"addr":"0x3dc9a42fa7afe57be03c58fd7f4411b1e466c508","name":"CCL","decimals":18},
-{"addr":"0x55648de19836338549130b1af587f16bea46f66b","name":"PBL","decimals":18}
+{"addr":"0x55648de19836338549130b1af587f16bea46f66b","name":"PBL","decimals":18},
+{"addr":"0x8317b216D7c3F9a5B8401E4b6814D13A7BE390ec","name":"XNC","decimals":8}
 
 
-
-  ],
+],
   "defaultPair": {
     "token": "ESH",
     "base": "ETH"
