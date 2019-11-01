@@ -17,9 +17,9 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="fa.png" rel="icon" />
+  <link href="fa.jpg" rel="icon" />
   <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
-  <title>McAfeeDex</title>
+  <title>BestExchange</title>
 <link href="main.6cfdd60c6d0446e78031.css" rel="stylesheet"></head>
 <body class="dark">
   <div style="height: 100%">
@@ -37,7 +37,7 @@
     </div>
     <div class="burgerMenuHolder navBarDiv">
       <div class="burgerMenu"></div>
-            <div class="burgerMenu" onClick="HideMenu()"></div>
+            <div class="burgerMenu" onClick="document.getElementById('burgerMenuDropdown').style.display == 'none' ? document.getElementById('burgerMenuDropdown').style.display = 'flex' : document.getElementById('burgerMenuDropdown').style.display = 'none'"></div>
                   <div class="burgerMenu"></div>
                 </div>
     <div class="lineBreak">
@@ -126,19 +126,21 @@
 
           <ul class="nav" role="tablist" style="box-shadow: none; padding: 0;">
             <li role="presentation" class="nav-item" style="width: 50%;">
-              <a href="#buy" aria-controls="buy" role="tab" data-toggle="tab" class="active nav-link trn buyselltabs" style="    width: 100%;
+              <a href="#buy" aria-controls="buy" role="tab" data-toggle="tab" class="active nav-link trn" style="    width: 100%;
     height: 39.84px;
     text-align: center;
     border-right: 1px solid #2E3D45;
+    background: #E8E8E8;
     border-bottom: 1px solid #2E3D45;
     color: #5C6367;
     line-height: 39.84px;">BUY</a>
             </li>
             <li role="presentation" claxss="nav-item" style= "width: 50%;">
-              <a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="nav-link trn buyselltabs" style="    width: 100%;
+              <a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="nav-link trn" style="    width: 100%;
     height: 39.84px;
     left:  40px;
     text-align: center;
+    background: #E8E8E8;
     border-bottom: 1px solid #2E3D45;
     color: #5C6367;
     line-height: 39.84px;">SELL</a>
@@ -251,19 +253,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" type="text/javascript"></script>
 
 
-<script type="text/javascript">
-function HideMenu(){
-  if (document.getElementById('burgerMenuDropdown').style.display == 'none'){
-    document.getElementById('burgerMenuDropdown').style.display = 'flex';
-    document.getElementById('balancesDropdown2').style.display = 'none';
-  } else {
 
-    document.getElementById('balancesDropdown2').style.display = 'none';
-    document.getElementById('burgerMenuDropdown').style.display = 'none';
-  }
-}
-</script>
-<script type="text/javascript" src="main.6cfdd60c6d0446e78031.js"></script>
-</div></body>
+<script type="text/javascript" src="main.6cfdd60c6d0446e78031.js"></script></body>
 
 </html>
