@@ -197,7 +197,6 @@ sup {
 }
 
 a {
-    color: var(--primary-color);
     font-weight: lighter;
     text-decoration: none;
     background-color: transparent;
