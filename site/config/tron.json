@@ -4,7 +4,7 @@
   "contractReserveToken": "smart_contract/reservetoken.sol",
   "contractSwitchDexAddrs": [
     {
-      "addr": "41d4173e5fbcd07d49d06f1b8224e790837089d53f",
+      "addr": "4169217573068fea7e080c121fc2ad6b9de816ced9",
       "info": "(Latest 02/09/2017)"
     },
     {
