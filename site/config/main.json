@@ -37,7 +37,7 @@
   "gasOrder": 250000,
   "minOrderSize": 0.001,
   "socketServer": [
-    "https://socket.switchdex.ag:8443"
+    "https://socket.switchdex.ag:8444"
   ],
   "userCookie": "SwitchDex",
   "eventsCacheCookie": "SwitchDex_eventsCache",
