@@ -197,7 +197,6 @@ sup {
 }
 
 a {
-    color: var(--primary-color);
     font-weight: lighter;
     text-decoration: none;
     background-color: transparent;
@@ -501,6 +500,15 @@ hr {
 @media (max-width: 700px){
   .circleThing{
     display: none;
+  }
+  .modal-content{
+    width: 95% !important;
+    margin-left: 2.5%;
+  }
+  .whitelistModalClass{
+    max-width: 100%;
+    width: 100%;
+    word-wrap: break-word;
   }
   .tokenPairingP{
     position: relative !important;
@@ -13523,8 +13531,8 @@ border-left: none;
       line-height: 1.5rem;
       vertical-align: middle;
       text-align: center;
-      color: #000000;
-}
+      color: var(--primary-color);
+    }
 .balanceTable{
   height: 100%;
   overflow: scroll;
@@ -13661,7 +13669,7 @@ border-bottom: 1px solid #898989;
   height: 1rem;
   /* padding: 2px; */
   margin-right: 0.5rem;
-  background: var(--third-color);
+  background: var(--seventh-color);
   border-radius: 3px;
 }
 .checkbox-custom:checked + .checkbox-custom-label:before {
@@ -13695,7 +13703,7 @@ border-bottom: 1px solid #898989;
     padding: 1rem;
 }
 .balanceHeaderSearchBox{
-  background: var(--third-color);
+  background: var(--seventh-color);
 border-radius: 3px;
 border: none;
 font-family: Open Sans;
@@ -14445,7 +14453,7 @@ width: 100%;
   width: 94.5%;
   margin-left: 0.7rem;
   margin-right: 0.7rem;
-  color: #000000 !important;
+  color: var(--primary-color) !important;
 }
 
 .ajs-button {
