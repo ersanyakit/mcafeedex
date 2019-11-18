@@ -197,7 +197,6 @@ sup {
 }
 
 a {
-    color: var(--primary-color);
     font-weight: lighter;
     text-decoration: none;
     background-color: transparent;
@@ -13532,8 +13531,8 @@ border-left: none;
       line-height: 1.5rem;
       vertical-align: middle;
       text-align: center;
-      color: #000000;
-}
+      color: var(--primary-color);
+    }
 .balanceTable{
   height: 100%;
   overflow: scroll;
@@ -13670,7 +13669,7 @@ border-bottom: 1px solid #898989;
   height: 1rem;
   /* padding: 2px; */
   margin-right: 0.5rem;
-  background: var(--third-color);
+  background: var(--seventh-color);
   border-radius: 3px;
 }
 .checkbox-custom:checked + .checkbox-custom-label:before {
@@ -13704,7 +13703,7 @@ border-bottom: 1px solid #898989;
     padding: 1rem;
 }
 .balanceHeaderSearchBox{
-  background: var(--third-color);
+  background: var(--seventh-color);
 border-radius: 3px;
 border: none;
 font-family: Open Sans;
